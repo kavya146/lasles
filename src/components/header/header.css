@@ -1,0 +1,26 @@
+.lasles-header{
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+}
+.header-row{
+    align-items: baseline;
+}
+.sign-in-btn{
+    color: #0b132a;
+    margin-right: 30px
+}
+.lasles-horizontalnav{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .lasles-horizontalnav{
+        display: none;
+    }
+}

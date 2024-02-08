@@ -1,0 +1,14 @@
+
+ul{
+   list-style-type: none;
+   display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #4f5665;
+
+}
+.nav-item{
+    margin-right: 20px;
+}
