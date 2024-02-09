@@ -1,11 +1,12 @@
 .lasles-header{
     padding: 20px 0;
-    position: fixed;
+    position: sticky;
     top: 0;
     right: 0;
     width: 100%;
     background-color: #fff;
     z-index: 100;
+    height: 80px;
 }
 .header-row{
     align-items: baseline;
@@ -18,9 +19,30 @@
     display: flex;
     justify-content: center;
 }
-
+.menu-bar{
+    width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
 @media screen and (max-width: 992px) {
     .lasles-horizontalnav{
         display: none;
     }
+    .lasles-sign-btn{
+        display: none;
+    }
+    .mobile-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+}
+
+@media  screen and (min-width:992px) {
+    .menu-bar{
+        display: none;
+    }
+    
 }

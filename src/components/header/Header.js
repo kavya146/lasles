@@ -2,35 +2,57 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import logo from "./logo.svg";
 import "./header.css";
 import HorizontalNav from "../navbar/horizontal/HorizontalNav";
+import { useState } from "react";
+import VerticalNav from "../navbar/vertical/VerticalNav";
 
 const Header = () => {
+  const [menuState, setMenuState] = useState(false);
+
+  const menuClick = (e) => {
+    if (menuState === true) {
+      setMenuState(false);
+    } else {
+      setMenuState(true);
+    }
+  };
+
   return (
-    <header className={"lasles-header"}>
-      <Container>
-        <Row className="header-row" md={2} lg={3}>
-          <Col md={6} lg={2}>
-            <a href="#">
-              <img src={logo} />
-            </a>
-          </Col>
+    <>
+      <div className={"lasles-header"}>
+        <Container>
+          <Row className="header-row" xs={1} sm={1} md={1} lg={3}>
+            <Col className="mobile-header" xs={1} sm={1} md={1} lg={2}>
+              <a href="#">
+                <img src={logo} />
+              </a>
+              <MenuIcon menuClick={menuClick} />
+            </Col>
 
-          <Col lg={7} className="lasles-horizontalnav">
-            <HorizontalNav />
-          </Col>
+            <Col lg={7} className="lasles-horizontalnav">
+              <HorizontalNav />
+            </Col>
 
-          <Col lg={3}>
-            <div>
+            <Col lg={3} className="lasles-sign-btn">
               <a className="sign-in-btn" href="#signin">
                 Sign In
               </a>
               <Button variant="outline-danger">Sign Up</Button>
-            </div>
-          </Col>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <VerticalNav menuOpen={!menuState} />
+    </>
+  );
+};
 
-          <Col md={6}></Col>
-        </Row>
-      </Container>
-    </header>
+const MenuIcon = ({ menuClick }) => {
+  return (
+    <div onClick={menuClick}>
+      <div className="menu-bar"></div>
+      <div className="menu-bar"></div>
+      <div className="menu-bar"></div>
+    </div>
   );
 };
 
