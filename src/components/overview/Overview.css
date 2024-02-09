@@ -1,0 +1,22 @@
+.lasles-overview{
+    padding: 20px 0px;
+}
+.h1-p-margin-bottom{
+    margin-bottom: 30px;
+}
+.overview-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.getstarted-btn{
+    width: inherit;
+    height: 60px;
+    font-weight: 800;
+    font-size: larger;
+    margin-bottom: 30px;
+    box-shadow: 0 20px 40px rgba(245, 56, 56,0.35)
+}
+
+
+    

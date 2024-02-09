@@ -33,10 +33,14 @@ const Header = () => {
             </Col>
 
             <Col lg={3} className="lasles-sign-btn">
-              <Button variant="light" className="sign-in-btn" href="#signin">
+              <Button
+                variant="light"
+                className="sign-in-btn ft-600"
+                href="#signin"
+              >
                 Sign In
               </Button>
-              <Button variant="outline-danger">Sign Up</Button>
+              <Button variant="outline-danger ft-600">Sign Up</Button>
             </Col>
           </Row>
         </Container>
@@ -48,7 +52,7 @@ const Header = () => {
 
 const MenuIcon = ({ menuClick }) => {
   return (
-    <div onClick={menuClick}>
+    <div style={{ cursor: "pointer" }} onClick={menuClick}>
       <div className="menu-bar"></div>
       <div className="menu-bar"></div>
       <div className="menu-bar"></div>
