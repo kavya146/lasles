@@ -33,9 +33,9 @@ const Header = () => {
             </Col>
 
             <Col lg={3} className="lasles-sign-btn">
-              <a className="sign-in-btn" href="#signin">
+              <Button variant="light" className="sign-in-btn" href="#signin">
                 Sign In
-              </a>
+              </Button>
               <Button variant="outline-danger">Sign Up</Button>
             </Col>
           </Row>

@@ -13,7 +13,10 @@
 }
 .sign-in-btn{
     color: #0b132a;
-    margin-right: 30px
+    border: none;
+    margin-right: 30px;
+    background-color: white;
+    font-weight: 600;
 }
 .lasles-horizontalnav{
     display: flex;
