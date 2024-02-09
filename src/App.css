@@ -1,0 +1,7 @@
+@media screen and (min-width: 992px) {
+
+    .md-display-none{
+        display: none !important;
+    }
+    
+}
