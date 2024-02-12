@@ -1,0 +1,35 @@
+
+.about-style{
+    padding-top: 100px;
+}
+.about-style .container{
+    -webkit-box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+.about-col-style{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-style .container div p:first-child{
+    color: #0b132a;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+.about-style .container div p:last-child{
+    font-size: 1.5rem;
+}
+
+@media  screen and (min-width:992px) {
+    .about-style{
+        padding-top: 50px;
+    } 
+}
+@media screen and (max-width:992px) {
+    .about-col-style{
+        justify-content: space-between;
+       
+    }
+    .about-style .about-col-style div{
+        width: 150px;
+    }
+}

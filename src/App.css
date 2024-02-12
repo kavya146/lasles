@@ -9,3 +9,9 @@
         display: none !important;
     }    
 }
+
+@media screen and (min-width: 992px){
+body {
+    font-size: larger;
+}
+}

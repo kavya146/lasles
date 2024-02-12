@@ -7,21 +7,26 @@ const Overview = () => {
     <>
       <div className="lasles-overview">
         <Container>
-          <Row>
+          <Row className="reverse-img-small-screen">
             <Col className="overview-left" lg={6}>
-              <h1 className="h1-p-margin-bottom">
-                Want anything to be <br></br> easy with <span>LaslesVPN</span>
+              <h1 className="h1-overview">
+                Want anything to be <br></br> easy with{" "}
+                <span style={{ fontWeight: "800" }}>LaslesVPN</span>
               </h1>
-              <p className="h1-p-margin-bottom">
+              <p className="p-overview">
                 Provide a network for all your needs with ease and fun using
-                <span>LaslesVPN</span> discover interesting features from us.
+                <span style={{ color: "black" }}> LaslesVPN</span> discover
+                interesting features from us.
               </p>
               <Button className="getstarted-btn" variant="danger">
                 Get Started
               </Button>
             </Col>
             <Col lg={6}>
-              <img src="https://laslesvpn-landing.netlify.app/images/illustration-1.svg"></img>
+              <img
+                className="mobile-view-img"
+                src="https://laslesvpn-landing.netlify.app/images/illustration-1.svg"
+              ></img>
             </Col>
           </Row>
         </Container>

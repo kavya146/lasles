@@ -1,7 +1,15 @@
 .lasles-overview{
     padding: 20px 0px;
 }
-.h1-p-margin-bottom{
+.h1-overview{
+    margin-bottom: 30px;
+    
+    margin: 0.67em 0;
+    font-weight: 600;
+}
+.p-overview{
+    color: #4f5665;
+    
     margin-bottom: 30px;
 }
 .overview-left{
@@ -18,5 +26,20 @@
     box-shadow: 0 20px 40px rgba(245, 56, 56,0.35)
 }
 
+@media screen and (min-width: 992px){
+.h1-overview{
+    font-size: 4rem;
+}
+}
+@media screen and (max-width:992px) {
+    .reverse-img-small-screen{
+        flex-direction:column-reverse ;
+       margin-left: 5px;
+    }
+}
+@media screen and (max-width:400px) {
+    .mobile-view-img{
+          width: 300px;
+    }
+}
 
-    
