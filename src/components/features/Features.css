@@ -1,0 +1,24 @@
+.lasles-features{
+    padding: 50px 0px;
+}
+
+.lasles-features ul{
+    list-style-type: none;
+}
+
+.lasles-features ul li::before{
+    content: url(https://laslesvpn-landing.netlify.app/images/check-icon.svg);
+    position: relative;
+    top: 5px;
+    margin-right: 22px;
+    padding-left: 0px;
+}
+.lasles-features ul li{
+    margin-bottom: 20px;
+}
+.features-title{
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+}
+

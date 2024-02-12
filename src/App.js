@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import Header from "./components/header/Header";
 import Overview from "./components/overview/Overview";
 import About from "./components/about/About";
+import Features from "./components/features/Features";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Overview />
       <About />
+      <Features />
     </div>
   );
 }

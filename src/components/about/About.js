@@ -15,6 +15,7 @@ const About = () => {
               <p>Locations</p>
             </div>
           </Col>
+
           <Col className="about-col-style" lg={4}>
             <img src="https://laslesvpn-landing.netlify.app/images/server-icon.svg"></img>
             <div>

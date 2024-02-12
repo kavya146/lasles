@@ -1,6 +1,7 @@
 
 .about-style{
-    padding-top: 100px;
+   
+    padding: 50px 0px;
 }
 .about-style .container{
     -webkit-box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09);

@@ -3,7 +3,7 @@ import "./HorizontalNav.css";
 const HorizontalNav = () => {
   return (
     <nav>
-      <ul>
+      <ul className="horizantal-nav-ul">
         <li className="nav-item">
           <a href="#about">About</a>
         </li>
