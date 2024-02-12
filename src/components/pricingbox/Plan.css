@@ -1,0 +1,74 @@
+.lasles-plan{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+.plan-box-style{
+    width: 330px;
+    height: 700px;
+    border: 3px solid #DDDDDD;
+    border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center; 
+}
+.pricing-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.lasles-plan .plan-box-style h3{
+  padding: 30px 0px;
+  text-align: center;
+   
+}
+
+.plan-box-style ul li{
+    list-style-type: none;  
+    padding-bottom: 5px;
+    
+}
+.plan-box-style ul{
+    padding-left: 0;
+}
+
+.plan-box-style ul li::before{
+    content: url(https://laslesvpn-landing.netlify.app/images/check-icon-2.svg);
+    margin-right: 25px;
+    position: relative;
+   
+}
+
+.plan-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.select-style{
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 20px;
+    display: block;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+   
+    color: red;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+a:link{
+    background-color: white;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
