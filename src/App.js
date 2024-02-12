@@ -7,6 +7,7 @@ import Overview from "./components/overview/Overview";
 import About from "./components/about/About";
 import Features from "./components/features/Features";
 import Pricing from "./components/pricing/Pricing";
+import Locations from "./components/locations/Locations";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Features />
       <Pricing />
+      <Locations />
     </div>
   );
 }
