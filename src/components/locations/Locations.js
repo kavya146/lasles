@@ -21,12 +21,31 @@ const Locations = () => {
             </p>
           </Col>
         </Row>
+
         <Row>
           <Col className="map-style">
             <img
               className="img-centre"
               src="https://laslesvpn-landing.netlify.app/images/locations.svg"
             ></img>
+          </Col>
+        </Row>
+
+        <Row style={{ alignItems: "center" }}>
+          <Col>
+            <img src="https://laslesvpn-landing.netlify.app/images/netflix-logo.png"></img>
+          </Col>
+          <Col>
+            <img src="https://laslesvpn-landing.netlify.app/images/reddit-logo.png"></img>
+          </Col>
+          <Col>
+            <img src="https://laslesvpn-landing.netlify.app/images/amazon-logo.png"></img>
+          </Col>
+          <Col>
+            <img src="https://laslesvpn-landing.netlify.app/images/discord-logo.png"></img>
+          </Col>
+          <Col>
+            <img src="https://laslesvpn-landing.netlify.app/images/spotify-logo.png"></img>
           </Col>
         </Row>
       </Container>
