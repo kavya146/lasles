@@ -9,6 +9,7 @@ import Features from "./components/features/Features";
 import Pricing from "./components/pricing/Pricing";
 import Locations from "./components/locations/Locations";
 import Testimonial from "./components/testimonials/Testimonial";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Pricing />
       <Locations />
       <Testimonial />
+      <Footer />
     </div>
   );
 }
