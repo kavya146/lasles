@@ -8,9 +8,32 @@
    border-radius: 10px;
    -webkit-box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09);
 }
-.footer-col{
+.subscribe-col{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.help-left-col{
+    padding: 50px 0px;
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+.lasles-helpleft{
+    padding-right: 20px;
+}
+.head-font-wight-size{
+    font-weight: 700;
+}
+.footer-margin ul li{
+    margin-bottom: 10px;
+}
+.footer-margin {
+    margin-right: 20px;
+}
+.footer-logo{
+    margin-bottom: 20px;
 }
 
