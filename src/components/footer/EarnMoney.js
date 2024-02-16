@@ -1,7 +1,7 @@
 import "./Footer.css";
 const EarnMoney = () => {
   return (
-    <div className="footer-margin">
+    <div>
       <ul>
         <li className="head-font-wight-size">Earn Money</li>
         <li>

@@ -9,8 +9,8 @@ import EarnMoney from "./EarnMoney";
 
 const Footer = () => {
   return (
-    <div className="lasles-footer">
-      <Container>
+    <div style={{ paddingTop: "50px" }}>
+      <Container className="lasles-footer">
         <Col className="subscribe-col">
           <Row>
             <SubscribeLeft />
@@ -19,7 +19,16 @@ const Footer = () => {
             <SubscribeButton />
           </Row>
         </Col>
+      </Container>
+      <Footer2 />
+    </div>
+  );
+};
 
+const Footer2 = () => {
+  return (
+    <div>
+      <Container>
         <Col className="help-left-col">
           <Row style={{ width: "60%" }}>
             <HelpLeft />

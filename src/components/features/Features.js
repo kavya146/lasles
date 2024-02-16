@@ -7,7 +7,10 @@ const Features = () => {
       <Container>
         <Row>
           <Col lg={6}>
-            <img src="https://laslesvpn-landing.netlify.app/images/illustration-2.svg"></img>
+            <img
+              className="mobile-view-img"
+              src="https://laslesvpn-landing.netlify.app/images/illustration-2.svg"
+            ></img>
           </Col>
           <Col lg={6}>
             <h2 className="features-title">
