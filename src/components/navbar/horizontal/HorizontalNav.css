@@ -6,11 +6,15 @@
    margin: 0;
 }
 
-a{
+.horizantal-nav-ul a{
     text-decoration: none;
     color: #4f5665;
 
 }
 .nav-item{
     margin-right: 30px;
+}
+
+.horizantal-nav-ul a:hover{
+    color: red;
 }

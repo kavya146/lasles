@@ -27,7 +27,7 @@ const Footer = () => {
 
 const Footer2 = () => {
   return (
-    <div>
+    <div id="help">
       <Container>
         <Col className="help-left-col">
           <Row style={{ width: "60%" }}>

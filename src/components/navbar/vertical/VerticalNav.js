@@ -15,14 +15,26 @@ const VerticalNav = ({ menuOpen }) => {
         padding: "20px",
         flexDirection: "column",
         justifyContent: "space-between",
+        cursor: "pointer",
       }}
     >
       <div style={{ fontSize: "x-larger", fontWeight: "700" }}>
-        <div style={{ marginBottom: "20px" }}>About</div>
-        <div style={{ marginBottom: "20px" }}>Features</div>
-        <div style={{ marginBottom: "20px" }}>Pricing</div>
-        <div style={{ marginBottom: "20px" }}>Testmonials</div>
-        <div style={{ marginBottom: "20px" }}>Help</div>
+        <div style={{ marginBottom: "20px" }}>
+          <a href="#about">About</a>
+        </div>
+        <div style={{ marginBottom: "20px" }}>
+          <a href="#features">Features</a>
+        </div>
+        <div style={{ marginBottom: "20px" }}>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <div style={{ marginBottom: "20px" }}>
+          <a href="#testimonials">Testmonials</a>
+        </div>
+        <div style={{ marginBottom: "20px" }}>
+          <a href="#help">Help</a>
+        </div>
+
         <div
           style={{
             height: "2px",
@@ -31,8 +43,13 @@ const VerticalNav = ({ menuOpen }) => {
             marginBottom: "20px",
           }}
         ></div>
-        <div style={{ marginBottom: "20px" }}>Sign In</div>
-        <div>Sign Up</div>
+
+        <div style={{ marginBottom: "20px" }}>
+          <a>Sign In</a>
+        </div>
+        <div>
+          <a>Sign Up</a>
+        </div>
       </div>
 
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>

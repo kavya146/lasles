@@ -3,7 +3,7 @@ import "./Features.css";
 
 const Features = () => {
   return (
-    <div className="lasles-features">
+    <div id="features" className="lasles-features">
       <Container>
         <Row>
           <Col lg={6}>

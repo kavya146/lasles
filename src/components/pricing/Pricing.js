@@ -6,7 +6,7 @@ import PremiumPlan from "../pricingbox/Premium";
 
 const Pricing = () => {
   return (
-    <div className="lasles-pricing">
+    <div id="pricing" className="lasles-pricing">
       <Container>
         <div>
           <h2 className="pricing-h2">Choose Your Plan</h2>
