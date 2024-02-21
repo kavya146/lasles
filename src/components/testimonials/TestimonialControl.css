@@ -1,0 +1,45 @@
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: #ddd;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dots{
+    display: flex;
+    align-items: center;
+}
+.arrows{
+    display: flex;
+}
+.control{
+    padding-top: 40px;
+}
+
+.redb{
+    background-color: #f53838;
+}
+
+.arrow-left{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #f53838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.arrow-right{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #f53838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #f53838;
+}
